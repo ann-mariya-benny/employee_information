@@ -1,0 +1,57 @@
+.LV_validation_message{
+    width: 100%;
+    text-align: right;
+    float: left;
+    font-size: 12px;
+}
+
+
+
+.LV_invalid {
+
+    color:#CC0000;
+}
+
+
+.LV_invalid_field, 
+input.LV_invalid_field:hover, 
+input.LV_invalid_field:active,
+textarea.LV_invalid_field:hover, 
+textarea.LV_invalid_field:active {
+    border: 1px solid #CC0000;
+    border-bottom: 1px solid #CC0000 !important;
+}
+.input-group .LV_validation_message{
+         position: absolute;
+    right: 0px;
+    z-index: 2;
+    top: 24px;
+    background: #fff;
+    width: auto;
+}
+
+
+/*.LV_invalid {
+	position: relative;
+	background: #999;
+            position: relative;
+    font-size: 11px;
+    width: auto;
+    color: #fff;
+    padding: 3px;
+    float: right;
+}
+.LV_invalid:after {
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(213, 6, 48, 0);
+	border-bottom-color: #999;
+	border-width: 6px;
+	margin-left: -6px;
+}*/
