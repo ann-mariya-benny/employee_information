@@ -35,3 +35,10 @@ Install WAMP.
 Open WAMPP Control panal and start [apache] and [mysql] .
 
 Download project from github and run it.
+
+
+
+
+Note:
+
+The database tables are given in employee.sql
